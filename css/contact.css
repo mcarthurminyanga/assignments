@@ -1,0 +1,126 @@
+
+body{
+	font-family: sans-serif;
+	background-color: #fbf4c7;
+}
+#header{
+	padding: 1em;
+	color: white;
+	text-align: center;
+	/*background-color: #333;*/
+
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)), url("../images/hero2.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	/*background-size: contain;*/
+}
+#header h1{
+	font-size: 5em;
+	text-transform: uppercase;
+}
+#header span{
+	font-size: 1em;	
+	text-transform: capitalize;
+}
+#navigation {
+	padding: 3% 0 0 0;
+}
+
+#navigation ul{
+	text-align: center;
+}
+#navigation ul li{
+	margin: 4em;
+	padding: 0 3%;
+	display: inline;
+	list-style-type: none;
+	font-size: 1.2em;
+	border-bottom: solid 2px #fff;
+	text-transform: capitalize;
+}
+#navigation ul li a{
+	padding: 0 4% 0% 4%;
+	background-color: transparent;
+	text-decoration: none;
+	color: #fff;
+}
+
+#navigation ul li:hover{
+	border-bottom: none;
+	transition: 0.5s;
+}
+#navigation ul li a:hover{
+	border-top: solid 3px #fff;
+	font-weight: bold;
+	transition: 0.4s ease;
+}
+#navigation ul li a:active{
+	background-color: #333;
+}
+
+#mainSection{
+	padding: 8em;
+	margin: 6em;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	background-color: #e8e9f9;
+	color: #333;
+	font-size: 18px;
+	text-align: justify;
+	line-height: 180%;
+}
+
+#subSection{
+	padding: 0;
+	text-transform: capitalize;
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-gap: 1em;
+}
+
+.contactDetails h2{
+	text-align: center;
+	border-bottom: solid 3px #111;
+}
+.contactDetails{
+	padding: 1em;
+	background-color: #fbf4c7;
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5); 
+}
+
+#footer{
+	background-color: #333;
+	padding: 2em;
+	color: #111;
+}
+#footer h2{
+	text-transform: capitalize;
+	color: white;
+}
+#footer h2 span{
+	padding: 0px 15px 10px 0;
+	border-bottom: solid 3px white;
+}
+#footer #socialAddresses{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+}
+#footer .socialMediaHandles{
+	text-align: center;
+	line-height: 5em;
+}
+#footer .socialMediaHandles img{
+	display: block;
+	margin: 0 45%;
+	border-radius: 50%;
+	padding-top: 1em;
+	border-bottom: solid 5px #111;
+}
+#footer .socialMediaHandles span a{
+	text-transform: lowercase;
+	color: white;
+}
+#footer .socialMediaHandles #copyrights{
+	color: white;
+	font-weight: bold;
+	text-transform: capitalize;
+}
